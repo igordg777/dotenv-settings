@@ -1,0 +1,20 @@
+{
+  "name": "dotenv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:prod": "cross-env NODE_ENV=production node app.js",
+    "start:dev": "cross-env NODE_ENV=development node app.js",
+    "start:test": "cross-env NODE_ENV=test node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
